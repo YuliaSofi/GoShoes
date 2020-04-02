@@ -5,6 +5,7 @@ public class MenuLogo {
         private String name;
 
         public String getLogo() {
+
             return logo;
         }
 

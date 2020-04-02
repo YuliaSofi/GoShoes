@@ -1,6 +1,8 @@
 package com.example.goshoes;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,6 +14,10 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
     }
 
+    public void handleShoes(View view) {
+        Intent intent = new Intent(this, ShoesActivity.class);
+        startActivity(intent);
     }
+}
 
 
