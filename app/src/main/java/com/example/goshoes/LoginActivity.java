@@ -15,9 +15,12 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void handleShoes(View view) {
-        Intent intent = new Intent(this, ShoesActivity.class);
+        Intent intent = new Intent(this, InfoActivity.class);
         startActivity(intent);
+
     }
-}
+
+    }
+
 
 

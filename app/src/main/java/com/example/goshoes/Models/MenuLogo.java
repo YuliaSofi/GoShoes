@@ -1,7 +1,7 @@
 package com.example.goshoes.Models;
 
 public class MenuLogo {
-        private String logo;
+    private String logo;
         private String name;
 
         public String getLogo() {
@@ -25,6 +25,8 @@ public class MenuLogo {
             this.logo = logo;
             this.name = name;
         }
+
+
     }
 
 
