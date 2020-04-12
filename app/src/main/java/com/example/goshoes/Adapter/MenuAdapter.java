@@ -11,27 +11,21 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.goshoes.Models.Detail;
 import com.example.goshoes.Models.MenuLogo;
 import com.example.goshoes.R;
 import com.squareup.picasso.Picasso;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder>{
 
     private Context context;
     private List<MenuLogo> items;
-    private ArrayList<Detail> listDetail;
 
     public MenuAdapter(Context context, List<MenuLogo> items) {
         this.context = context;
         this.items = items;
     }
-    public ArrayList<Detail> getListDetail() { return listDetail; }
-
-    public void setListDetail(ArrayList<Detail> listDetail){ this.listDetail = listDetail;}
 
     @NonNull
     @Override

@@ -22,50 +22,64 @@
             />
 
     <ImageView
-        android:id="@+id/calendar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_eventlist"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/imageView4"
+        android:layout_width="434dp"
+        android:layout_height="790dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background_satu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481"
+        app:srcCompat="@drawable/sepatu" />
+
 
     <TextView
         android:id="@+id/sub_welcome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#313131"
-        android:text="What is going to happen tomorrow ?"
-        app:layout_constraintTop_toBottomOf="@+id/welcome_text"
+        android:layout_width="311dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="16dp"
+        android:background="#160E184C"
+        android:text="Human history is the history of shoes. History of the place where he had stepped on. "
+        android:textColor="#F4F2F6"
+        android:textSize="18sp"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/welcome_text" />
 
     <TextView
         android:id="@+id/welcome_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autoText="false"
+        android:background="#0309090B"
+        android:shadowColor="#9A2828"
         android:text="Welcome To Go Shoes"
-        android:textColor="#313131"
-        android:textSize="24sp"
-        app:layout_constraintHorizontal_bias="0.497"
+        android:textColor="#F9F8FA"
+        android:textColorHighlight="#AA2929"
+        android:textColorLink="#513838"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/background_satu"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/calendar" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.501" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="146dp"
+        android:layout_height="69dp"
+        android:background="@drawable/nike"
         android:onClick="handleShoes"
         android:text="Buy Now"
+        android:textColor="@color/cardview_light_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintHorizontal_bias="0.539"
         app:layout_constraintStart_toStartOf="@+id/background_satu"
         app:layout_constraintTop_toTopOf="@+id/background_satu"
-        app:layout_constraintVertical_bias="0.81" />
+        app:layout_constraintVertical_bias="0.491" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
